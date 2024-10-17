@@ -1,0 +1,15 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - ios/.symlinks/**
+    - macos/Flutter/ephemeral/.symlinks/**
+    - linux/flutter/ephemeral/.plugin_symlinks/**
+    - windows/flutter/ephemeral/.plugin_symlinks/**
+
+linter:
+  rules:
+    avoid_print: false
+    prefer_single_quotes: true
+    directives_ordering: true
